@@ -1,0 +1,26 @@
+{
+  "name": "plantground-ai-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An autonomous AI agent designed to automate plant data synthesis and WooCommerce product management for Plantground.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradsearle/plantground-ai-agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradsearle/plantground-ai-agent/issues"
+  },
+  "homepage": "https://github.com/bradsearle/plantground-ai-agent#readme",
+  "dependencies": {
+    "@google/genai": "^2.15.0",
+    "dotenv": "^17.4.2",
+    "googleapis": "^174.0.0"
+  }
+}
