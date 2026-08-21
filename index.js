@@ -14,7 +14,7 @@ if (!plantNameInput) {
   process.exit(1);
 }
 
-// 2. Initialize Clients
+// 2. Initialize Clients /
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 const auth = new google.auth.GoogleAuth({
   keyFile: "service_account.json",
